@@ -1,4 +1,3 @@
-
 function narcissistic(value) {
     const num = value.toString().split("")    
     const n = num.reduce((acc, cur)=> +acc + cur** num.length, 0)   
